@@ -1,0 +1,9 @@
+[Unit]
+Description=ds4xb
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ds4xb.sh
+
+[Install]
+WantedBy=default.target

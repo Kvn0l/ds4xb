@@ -1,0 +1,14 @@
+{
+    "profiles": {
+        "Playstation": {
+            "accel": "x-y-z-",
+            "gyro": "x-y-z-"
+        }
+    },
+    "devices": [
+        {
+            "name": "Wireless Controller Motion Sensors",
+            "profile": "Playstation"
+        }
+    ]
+} 
