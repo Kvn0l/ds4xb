@@ -3,7 +3,7 @@
 Scripts, services and udev rules to:
 1. Automaticaly start evdevhook when DS4 is connected. (ds4hook)
 2. Change LED to a desired color and maintain it with a loop. (ds4leds)
-3. Start Xboxdrv to emulate xbox controller for use with Wine/Proton without Steam Overlay/Input emulation. (ds4xb)
+3. Start Xboxdrv to emulate xbox controller for use with Wine/Proton without Steam Input emulation. (ds4xb)
 4. Stop all three services on DS4 disconnection. (ds4stop)
 5. Alternatively, a toggle to enable the services on demand (ds4toggle)
 
