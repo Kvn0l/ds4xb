@@ -4,8 +4,8 @@ install:
 	install -m 755 ds4leds.sh /usr/bin/
 	install -m 755 ds4xb.sh /usr/bin/
 	install -m 755 ds4stop.sh /usr/bin/
-	install -m 744 ds4.json /usr/etc/
-	install -m 744 ds4xb.xboxdrv /usr/etc/
+	install -m 744 ds4hook.json /etc/
+	install -m 744 ds4xb.xboxdrv /etc/
 	install -m 744 ds4hook.service /usr/lib/systemd/system/
 	install -m 744 ds4leds.service /usr/lib/systemd/system/
 	install -m 744 ds4xb.service /usr/lib/systemd/system/
@@ -22,8 +22,8 @@ uninstall:
 	rm -f /usr/bin/ds4leds.sh
 	rm -f /usr/bin/ds4xb.sh
 	rm -f /usr/bin/ds4stop.sh
-	rm -f /usr/etc/ds4.json
-	rm -f /usr/etc/ds4xb.xboxdrv
+	rm -f /etc/ds4hook.json
+	rm -f /etc/ds4xb.xboxdrv
 	rm -f /usr/lib/systemd/system/ds4hook.service
 	rm -f /usr/lib/systemd/system/ds4leds.service
 	rm -f /usr/lib/systemd/system/ds4xb.service
