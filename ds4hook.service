@@ -6,4 +6,4 @@ Type=simple
 ExecStart=/usr/local/bin/ds4hook.sh
 
 [Install]
-WantedBy=default.target
+WantedBy=ds4.target
