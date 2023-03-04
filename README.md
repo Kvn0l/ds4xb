@@ -9,9 +9,11 @@ Scripts, services and udev rules to:
 
 Required to work:
 [evdevhook](https://github.com/v1993/evdevhook)
+
 [xboxdrv](https://xboxdrv.gitlab.io/)
 
 I ~stole ideas~ took inspiration from:                                                                                                                                                                       
 ds360 by Yossef: https://github.com/yoyossef/ds360                                                                                                                         
 A comment by xiota: https://github.com/yoyossef/ds360/issues/6
+
 ds4led by Xilog https://github.com/XilogOfficial/ds4led
