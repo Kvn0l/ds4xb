@@ -3,7 +3,7 @@ Description=ds4hook
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/ds4leds.sh
+ExecStart=/usr/bin/ds4leds.sh
 
 [Install]
 WantedBy=ds4.target

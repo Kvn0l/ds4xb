@@ -3,7 +3,7 @@ Description=ds4xb
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/ds4xb.sh
+ExecStart=/usr/bin/ds4xb.sh
 
 [Install]
 WantedBy=ds4.target

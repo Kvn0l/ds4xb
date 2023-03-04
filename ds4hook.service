@@ -3,7 +3,9 @@ Description=ds4hook
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/ds4hook.sh
+ExecStart=/usr/bin/ds4hook.sh
+Restart=on-failure
+RestartSec=1s
 
 [Install]
 WantedBy=ds4.target
